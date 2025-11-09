@@ -1,0 +1,12 @@
+# Backend
+integraupt-backend/target/
+
+# Frontend
+integraupt-frontend/node_modules/
+integraupt-frontend/dist/
+
+# General
+node_modules/
+dist/
+.idea/
+nbproject/
