@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { HomeScreen } from './HomeScreen';
-import { ServiciosScreen } from './ServiciosMenu';
+import { ServiciosScreen } from './ServiciosScreen';
 import { EventosScreen } from './EventosScreen';
 import { PerfilScreen } from './PerfilScreen';
 import './../../styles/IntegraUPTApp.css';
@@ -44,7 +44,7 @@ export const IntegraUPTApp: React.FC<IntegraUPTAppProps> = ({
       case 'home':
         return <HomeScreen {...commonProps} />;
       case 'servicios':
-        return <ServiciosMenu {...commonProps} />;
+        return <ServiciosScreen {...commonProps} />;
       case 'eventos':
         return <EventosScreen {...commonProps} />;
       case 'perfil':
